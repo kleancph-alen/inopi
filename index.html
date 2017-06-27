@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="pSApp">
+    <head>
+        <!-- Meta tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="mobile-web-app-capable" content="yes">
+        
+        <title>Test</title>
+
+        <link href="app.css" rel='stylesheet' type='text/css' />
+
+        
+        <script src="jquery-3.2.1.min.js"></script>
+        <script src="imageMapResizer.min.js"></script>
+        <script src="app.js"></script>
+        
+    </head>
+    <body>
+        <div>
+            <div class="back">
+                
+                <img class="part red" src="red.png" />
+                <img class="part blue" src="blue.png" />
+                <img class="part yellow" src="yellow.png" />
+                <img class="original" src="Original.png" usemap="#myMap"/>
+            </div>
+
+            <map name="myMap">
+                <area class="red-area" target="" alt="" title="" href="" coords="489,274,510,244,539,208,591,173,634,154,702,147,758,158,810,180,846,211,868,236,886,254,837,287,762,328,698,358" shape="poly">
+                <area class="blue-area" target="" alt="" title="" href="" coords="706,370,894,266,904,294,917,322,919,350,924,385,918,412,912,440,899,469,885,496,871,519,852,537,833,556,806,576,781,585,754,593,728,599,695,604" shape="poly">
+                <area class="yellow-area" target="" alt="" title="" href="" coords="484,285,688,363,680,606,609,593,563,568,525,529,493,489,473,435,464,368,469,326" shape="poly">
+            </map>
+        </div>
+        
+    </body>
+</html>

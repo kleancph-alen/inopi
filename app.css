@@ -1,0 +1,29 @@
+.part{
+    position: fixed;
+    width: 50%;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+}
+
+.original{
+    position: fixed;
+    width: 50%;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+}
+
+.back{
+    background : url('Original.png') no-repeat;
+    background-size: 50% !important;
+    transition: .1s ease-in-out all;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
