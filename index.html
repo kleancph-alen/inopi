@@ -18,7 +18,7 @@
         
     </head>
     <body>
-        <div>
+        <div class="main-content">
             <div class="back">
                 
                 <img class="part red" src="red.png" />
@@ -31,8 +31,41 @@
                 <area class="red-area" target="" alt="" title="" href="" coords="489,274,510,244,539,208,591,173,634,154,702,147,758,158,810,180,846,211,868,236,886,254,837,287,762,328,698,358" shape="poly">
                 <area class="blue-area" target="" alt="" title="" href="" coords="706,370,894,266,904,294,917,322,919,350,924,385,918,412,912,440,899,469,885,496,871,519,852,537,833,556,806,576,781,585,754,593,728,599,695,604" shape="poly">
                 <area class="yellow-area" target="" alt="" title="" href="" coords="484,285,688,363,680,606,609,593,563,568,525,529,493,489,473,435,464,368,469,326" shape="poly">
+
+                <area class="red-click" coords="816,66,572,123" shape="rect">
+                <area class="blue-click" coords="1231,450,940,520" shape="rect">
+                <area class="yellow-click" coords="453,451,362,509" shape="rect">
             </map>
         </div>
-        
+        <div class="red-content">
+            <div style="width: 100%; margin-bottom: 200px;">
+                <h2 onclick="goBackRed()">Tilbage</h2>
+            </div>
+            <div style="width: 100%; background: #D8D8D8">
+                <div class="red-circle"></div>
+                <div class="red-text">awsdddwa</div>
+            </div>
+            
+        </div>
+        <div class="blue-content">
+            <div style="width: 100%; margin-bottom: 200px;">
+                <h2 onclick="goBackBlue()">Tilbage</h2>
+            </div>
+            <div style="width: 100%; background: #D8D8D8">
+                <div class="red-circle blue-circle"></div>
+                <div class="red-text">awsdddwa</div>
+            </div>
+            
+        </div>
+        <div class="yellow-content">
+            <div style="width: 100%; margin-bottom: 200px;">
+                <h2 onclick="goBackYellow()">Tilbage</h2>
+            </div>
+            <div style="width: 100%; background: #D8D8D8">
+                <div class="red-circle yellow-circle"></div>
+                <div class="red-text">awsdddwa</div>
+            </div>
+            
+        </div>
     </body>
 </html>

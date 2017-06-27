@@ -1,6 +1,9 @@
+body{
+    margin: 0px;
+}
 .part{
     position: fixed;
-    width: 50%;
+    width: 100%;
     height: auto;
     left: 0px;
     top: 0px;
@@ -9,7 +12,7 @@
 
 .original{
     position: fixed;
-    width: 50%;
+    width: 100%;
     height: auto;
     left: 0px;
     top: 0px;
@@ -18,7 +21,7 @@
 
 .back{
     background : url('Original.png') no-repeat;
-    background-size: 50% !important;
+    background-size: 100% !important;
     transition: .1s ease-in-out all;
     position: fixed;
     top: 0px;
@@ -26,4 +29,55 @@
     width: 100%;
     height: 100%;
     padding: 0px;
+}
+
+.red-circle{
+    width: 50%;
+    border: solid 140px #BE392B; 
+    border-radius: 100%; 
+    margin-left: calc((25% + 140px) * -1); 
+    margin-top: - 70px;
+}
+
+.red-text{
+    width: 50%;
+    float: left;
+}
+
+.red-content{
+    width: 100%; position: fixed;
+    overflow-y: hidden;
+    height: 100vh;
+    margin-top: -100vh;
+    transition: all 1.2s;
+}
+
+.back{
+    transition: all 1.2s;
+}
+
+.red-circle.blue-circle{
+    border: solid 140px #3775A0;  
+    opacity: 1;
+}
+
+.blue-content{
+    width: 100%; position: fixed;
+    overflow-y: hidden;
+    height: 100vh;
+    margin-left: 100%;
+    transition: all 1.2s;
+}
+
+.red-circle.yellow-circle{
+    border: solid 140px #E9C224;  
+    opacity: 1;
+}
+
+.yellow-content{
+    width: 100%; position: fixed;
+    overflow-y: hidden;
+    height: 100vh;
+    margin-left: -100%;
+    transition: all 1.2s;
 }
